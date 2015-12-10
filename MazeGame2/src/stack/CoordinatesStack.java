@@ -22,10 +22,8 @@ public class CoordinatesStack {
 	}
 	
 	public boolean isEmpty(){
-		if(top == 0)
-			return true;
-					
-		return false;
+		return (top == 0);
+		
 	}
 	
 	public void push(int x, int y){

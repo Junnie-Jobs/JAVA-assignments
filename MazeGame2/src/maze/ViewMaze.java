@@ -17,13 +17,13 @@ public class ViewMaze {
 			{
 				switch(mazeArr[i][j]){
 				case 0:
-					System.out.println("◻︎"); //길
+					System.out.print("☆"); //길
 					break;
 				case 1:
-					System.out.println("◼︎"); //벽
+					System.out.print("★"); //벽
 					break;
 				case 2:
-					System.out.println("-"); //통
+					System.out.print("◎"); //통과한 지점
 				}
 				
 			}

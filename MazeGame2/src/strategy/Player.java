@@ -17,17 +17,13 @@ public class Player extends CoordinatesStack implements IStrategy {
 	@Override
 	public boolean checkWall(int x, int y) {
 
-		if (x >= maze.length || y >= maze.length || x < 0 || y < 0 || maze[x][y] == 1)
-			return false;
-		return true;
+		return (x >= maze.length || y >= maze.length || x < 0 || y < 0 || maze[x][y] == 1);
+		
 	}
 
 	@Override
 	public boolean isExit(int x, int y) {
-		if (x == maze.length - 1 && y == maze[0].length - 2)
-
-			return true;
-		return false;
+		return (x == maze.length - 1 && y == maze[0].length - 2);
 	}
 
 	@Override

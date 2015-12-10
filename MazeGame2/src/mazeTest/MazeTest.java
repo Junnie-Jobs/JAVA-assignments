@@ -40,7 +40,7 @@ public class MazeTest {
 			return;
 		}
 		
-		System.out.println("<" + dirOption + "direction maze run>\n");
+		System.out.println("<" + dirOption + " direction maze run>\n");
 		player.playMaze();
 		System.out.println("Stack count: " + player.getStrackCount());
 																	
