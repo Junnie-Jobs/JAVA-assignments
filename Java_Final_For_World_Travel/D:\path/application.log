@@ -1,0 +1,28 @@
+[2016-01-03 17:07:24]  INFO (utils.MyLogger - main:17) - [INFO]  Hello log4j.
+[2016-01-03 17:07:24]  WARN (utils.MyLogger - main:18) - [WARN]  Hello log4j.
+[2016-01-03 17:07:24] ERROR (utils.MyLogger - main:19) - [ERROR] Hello log4j.
+[2016-01-03 17:07:24] FATAL (utils.MyLogger - main:20) - [FATAL] Hello log4j.
+[2016-01-03 17:10:40]  INFO (utils.MyLogger - logTest:11) - information
+[2016-01-03 17:12:39]  INFO (utils.MyLogger - log:12) - information
+[2016-01-03 17:13:15]  INFO (utils.MyLogger - log:12) - information
+[2016-01-03 17:14:49]  INFO (utils.MyLogger - log:12) - information
+[2016-01-03 17:15:19]  INFO (utils.MyLogger - log:12) - information
+[2016-01-03 17:15:31]  INFO (utils.MyLogger - log:12) - information
+[2016-01-03 17:15:38]  INFO (utils.MyLogger - log:12) - information
+[2016-01-03 17:15:46]  INFO (utils.MyLogger - log:12) - information
+[2016-01-03 17:17:18]  INFO (utils.MyLogger - log:11) - information
+[2016-01-03 17:28:37]  INFO (utils.MyLogger - main:16) - hemllo
+[2016-01-03 17:32:16]  INFO (utils.MyLogger - yyy:22) - info message
+[2016-01-03 17:33:53]  INFO (utils.MyLogger - yyy:22) - info message
+[2016-01-03 17:35:18] FATAL (utils.MyLogger - main:19) - log4j:logger.fatal()
+[2016-01-03 17:35:18] ERROR (utils.MyLogger - main:21) - log4j:logger.error()
+[2016-01-03 17:35:18]  WARN (utils.MyLogger - main:23) - log4j:logger.warn()
+[2016-01-03 17:35:18]  INFO (utils.MyLogger - main:25) - log4j:logger.info()
+[2016-01-03 17:36:07] FATAL (utils.MyLogger - main:16) - log4j:logger.fatal()
+[2016-01-03 17:36:07] ERROR (utils.MyLogger - main:18) - log4j:logger.error()
+[2016-01-03 17:36:07]  WARN (utils.MyLogger - main:20) - log4j:logger.warn()
+[2016-01-03 17:36:07]  INFO (utils.MyLogger - main:22) - log4j:logger.info()
+[2016-01-03 17:36:17] FATAL (utils.MyLogger - main:16) - log4j:logger.fatal()
+[2016-01-03 17:36:17] ERROR (utils.MyLogger - main:18) - log4j:logger.error()
+[2016-01-03 17:36:17]  WARN (utils.MyLogger - main:20) - log4j:logger.warn()
+[2016-01-03 17:36:17]  INFO (utils.MyLogger - main:22) - log4j:logger.info()
