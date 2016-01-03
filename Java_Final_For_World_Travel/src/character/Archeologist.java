@@ -29,32 +29,9 @@ public class Archeologist extends Thread implements ICharacter {
 	}
 
 	@Override
-	public void Explore() {
-		// TODO Auto-generated method stub
-
-	}
-
 	public void introduce() {
 		logger.debug("나는 고고학자, 전 세계의 유적들을 살펴볼 것이다.");
 
 	}
-
-//	public void run(){
-//		
-//		
-//		
-//		try {
-//			ICharacter character = TravelCountry.travel.travelOut();
-//			sleep(5000);
-//			TravelCountry.travel.returnShip(character);
-//
-//			if (character == null)
-//				return;
-//
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//	}
 
 }

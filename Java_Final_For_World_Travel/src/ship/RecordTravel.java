@@ -31,15 +31,15 @@ public class RecordTravel {
 
 		while ((j = System.in.read()) != -1) {
 			if (j == 'A') {
-				i.play(adventurer);
+				i.record(adventurer);
 				logger.debug(adventurer + "는 여행기록을 작성하였습니다.");
 				threadA.setFlag(true);
 			} else if (j == 'B') {
-				i.play(archeologist);
+				i.record(archeologist);
 				logger.debug(archeologist + "는 여행기록을 작성하였습니다.");
 				threadB.setFlag(true);
 			} else if (j == 'C') {
-				i.play(artist);
+				i.record(artist);
 				logger.debug(artist + "는 여행기록을 작성하였습니다.");
 				threadC.setFlag(true);
 			} else if (j == 'S') {

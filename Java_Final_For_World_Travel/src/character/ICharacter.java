@@ -2,7 +2,6 @@ package character;
 
 public interface ICharacter {
 	
-	void Explore();
-
+	void introduce();
 
 }

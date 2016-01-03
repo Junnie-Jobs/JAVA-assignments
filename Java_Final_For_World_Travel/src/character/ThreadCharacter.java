@@ -2,7 +2,7 @@ package character;
 
 import ship.TravelInOut;
 
-public class Character extends Thread {
+public class ThreadCharacter extends Thread {
 
 	public static TravelInOut travel = new TravelInOut();
 

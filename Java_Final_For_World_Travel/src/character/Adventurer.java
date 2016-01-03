@@ -2,6 +2,7 @@ package character;
 
 import org.apache.log4j.Logger;
 
+
 public class Adventurer extends Thread implements ICharacter {
 	
 	private static Logger logger = Logger.getLogger(Adventurer.class);

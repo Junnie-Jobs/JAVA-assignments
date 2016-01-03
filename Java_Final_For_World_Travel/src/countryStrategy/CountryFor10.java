@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
 import character.Adventurer;
 import character.Archeologist;
 import character.Artist;
-import character.Character;
+import character.ThreadCharacter;
 import clothesDecorator.ClothesChoice;
 import country.America;
 import country.Brazil;
@@ -37,12 +37,6 @@ public class CountryFor10 {
 		return countryFor5.getList();
 
 	}
-
-	// public ArrayList<CountryBaisc> getList() {
-	//
-	// return countryList;
-	//
-	// }
 
 	public void printCountry() {
 
@@ -73,15 +67,16 @@ public class CountryFor10 {
 
 			logger.debug("");
 			logger.debug("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
+			logger.debug("");
 			cc.clothesChoice(i);
 			logger.debug("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
 			logger.debug("");
 			logger.debug("여행자들이 기항지에 여행을 갔다가 돌아올 때까지 기다려 주세요");
 			logger.debug("");
 
-			Character c1 = new Character();
-			Character c2 = new Character();
-			Character c3 = new Character();
+			ThreadCharacter c1 = new ThreadCharacter();
+			ThreadCharacter c2 = new ThreadCharacter();
+			ThreadCharacter c3 = new ThreadCharacter();
 
 			c1.start();
 			c2.start();
@@ -114,6 +109,11 @@ public class CountryFor10 {
 				logger.debug("");
 				logger.debug("세계일주가 끝났습니다. 하지만 여행은 끝나지 않았습니다. 여러분의 가슴과 머리속에");
 				logger.debug("영원히 살아 숨쉴 것이고, 그 경험이 여러분을 성장시켜줄 것입니다.");
+				logger.debug("여행을 통해 배우는 것은 단지 세상의 다른 모습 뿐만 아니라 세계를 이끌어온 인류의 정신의 역사와");
+				logger.debug("그 문명을 일구어온 태도에 대해 배우고 그것들을 몸에 녹아내리는 것입니다.");
+				logger.debug("여행지에서 각자가 얻은 메시지, 깨달음의 과정 속에서 있었던 감각적 사유와 이성적 사색의 여정. 그리고 성장...");
+				logger.debug("여행은 이토록 우리에게 특별한 경험을 선사해주고, 앞으로 살아갈 세상에 대한 인식과 무대를 넓혀줄 것입니다.");
+				logger.debug("잊지마세요. 인생의 여행은 계속 된다는 것을.");
 				logger.debug("세계일주 첫번째 이야기 끝.");
 				logger.debug("");
 				logger.debug("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");

@@ -19,7 +19,7 @@ public abstract class CountryBaisc {
 	
 	public abstract String whether();
 
-	public void play(ICharacter chracter) {
+	public void record(ICharacter chracter) {
 
 		Adventurer adventurer = Adventurer.getInstance();
 		Archeologist archeologist = Archeologist.getInstance();
